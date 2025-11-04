@@ -1,33 +1,55 @@
-# Web App
+# web-app
 
-## Demo
+A simple single-page application built with Vue 3 and Vue Router.
 
-![](demo/server-running.png)
+## Pages
 
-![](demo/static-page.png)
+- **Home** – short description of the app.
+- **Catalog** – list of projects loaded from `/public/data.json`.
+- **Details** – detailed view of a selected item.
 
-## Installation
+## Get started
 
-Prerequisites: [Node.js](https://nodejs.org/en) and [Git](https://git-scm.com/).
+Clone the repo:
 
-1. Clone the repositorry from your terminal:
+```bash
+git clone https://github.com/extremum9/web-app.git
+```
 
-   ```bash
-   $ git clone https://github.com/denyschr/web-app.git
-   ```
+Install dependencies:
 
-2. Go to the root directory:
+```bash
+npm i
+```
 
-   ```bash
-   $ cd web-app
-   ```
+Run the development server:
 
-3. Start the server:
+```bash
+npm run dev
+```
 
-   ```bash
-   $ node src/index.js
-   ```
+Build the project:
 
-4. The server will be running at http://localhost:3000.
+```bash
+npm run build
+```
 
-5. Open public/index.html to see the static page.
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Screenshots
+
+### Home page
+
+![](demo/home-page.png)
+
+### Catalog page
+
+![](demo/catalog-page.png)
+
+### Details page
+
+![](demo/details-page.png)
